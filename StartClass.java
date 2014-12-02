@@ -7,7 +7,7 @@ import java.awt.image.renderable.RenderableImageProducer;
  */
 public class StartClass {
     StartClass(){
-        JFrame frame = new JFrame("Hello programm");
+        JFrame frame = new JFrame("Hello programm");            //not a good name
         frame.setBounds(0, 0, 640, 480);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frame.setLayout(new BorderLayout());
